@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cyam.iml" filepath="$PROJECT_DIR$/cyam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyam-api/cyam-api.iml" filepath="$PROJECT_DIR$/cyam-api/cyam-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyam-common/cyam-common.iml" filepath="$PROJECT_DIR$/cyam-common/cyam-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyam-generator/cyam-generator.iml" filepath="$PROJECT_DIR$/cyam-generator/cyam-generator.iml" />
+    </modules>
+  </component>
+</project>

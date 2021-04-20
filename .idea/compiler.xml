@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cyam-generator" />
+        <module name="cyam-api" />
+        <module name="cyam" />
+        <module name="cyam-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cyam" target="11" />
+      <module name="cyam-api" target="11" />
+      <module name="cyam-common" target="11" />
+      <module name="cyam-generator" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cyam" options="-parameters" />
+      <module name="cyam-api" options="-parameters" />
+      <module name="cyam-common" options="-parameters" />
+      <module name="cyam-generator" options="-parameters" />
+    </option>
+  </component>
+</project>
